@@ -1,0 +1,108 @@
+$main: white;
+$size: 53%;
+$height: 52px;
+
+* {
+    margin: auto;
+    text-align: center;
+    align-content: center;
+}
+
+body {
+    margin: auto;
+    background-image: url('background.jpg');
+
+    button {
+        margin: auto;
+        width:50%;
+        border-radius: 15px;
+        border: none;
+        display: block;
+        height: 50px;
+    }
+
+    div {
+        padding: 2%;
+
+    }
+
+    a {
+        text-decoration: none;
+        color:inherit;
+    }
+
+    h4 {
+        color:$main;
+    }
+}
+
+footer {
+    text-align: center;
+    color:$main;
+}
+
+#LinkedIn { 
+    background-color: #0A66C2;
+    color:$main;
+}
+
+#header {
+    color:$main;
+}
+
+#LinkedIn:hover {
+    background-color: blue;
+    width: $size;
+    height: $height;
+}
+
+#Instagram {
+    background-color: #E4405F;
+    color:$main;
+}
+
+#Instagram:hover {
+    background-color: purple;
+    width: $size;
+    height: $height;
+}
+
+#Youtube {
+    background-color: #c4302b;
+    color:$main;
+}
+
+#Youtube:hover {
+    background-color: red;
+    width: $size;
+    height: $height;
+}
+
+#Threads {
+    background-color: $main;
+    color: black;
+}
+
+#Threads:hover {
+    background-color: black;
+    color: $main;
+    width: $size;
+    height: $height;
+}
+
+#Github {
+    background-color: $main;
+    color: black;
+}
+
+#Github:hover {
+    background-color: black;
+    color: $main;
+    width: $size;
+    height: $height;
+}
+
+#Medium:hover {
+    width: $size;
+    height: $height;
+}
