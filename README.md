@@ -1,2 +1,2 @@
 # Links
-My personal version for Linktree
+My personal version of Linktree
