@@ -6,7 +6,7 @@
 
 body {
   margin: auto;
-  background-image: url("./resources/background.jpg");
+  background-image: url("/resources/background.jpg");
 }
 body button {
   margin: auto;
